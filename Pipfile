@@ -11,6 +11,7 @@ djangorestframework = "*"
 gunicorn = "*"
 django-heroku = "*"
 pillow = "*"
+dj-database-url = "*"
 
 [requires]
 python_version = "3.6"

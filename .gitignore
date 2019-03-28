@@ -2,3 +2,5 @@
 /artocart/__pycache__/
 /verify/__pycache__/
 /order/__pycache__/
+
+*.sqlite3

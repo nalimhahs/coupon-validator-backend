@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('verify/', include(('verify.urls', 'verify'), namespace='verify')),
+    path('order/', include(('order.urls', 'order'), namespace='order')),
 ]

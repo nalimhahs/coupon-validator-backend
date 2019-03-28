@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'v88oct2&$0_$o=r2dz1)9b75qw0h#am%fo5i7qr+w$cy1_du57'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['artocart.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

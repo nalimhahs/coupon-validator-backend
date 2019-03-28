@@ -22,10 +22,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'v88oct2&$0_$o=r2dz1)9b75qw0h#am%fo5i7qr+w$cy1_du57'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = os.environ.get('DJANGO_DEBUG')
 
 ALLOWED_HOSTS = ['artocart.herokuapp.com', '127.0.0.1']
 

@@ -2,5 +2,7 @@
 /artocart/__pycache__/
 /verify/__pycache__/
 /order/__pycache__/
+/order/migrations/__pycache__
+/env.sh
 
 *.sqlite3
